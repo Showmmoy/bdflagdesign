@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 700px;
+	height: 400px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 100px;
+	position: relative;
+	top: 25%;
+	left: 35%;
+}
+.facebook{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+}
+
+.twitter{
+	width: 150px;
+	position: fixed;
+	top: 40%;
+	right: -100px;
+}
+
+.youtube{
+	width: 150px;
+	position: fixed;
+	top: 53%;
+	right: -100px;
+}
+
+.facebook:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+
+}
+.twitter:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.youtube:hover{
+	right: 4px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 100px 0px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 40px;
+	text-align: center;
+	background: blue;
+	color: white;
+	margin: 0px 15px;
+	border-radius: 10%;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	background-color: red;
+	color: white;
+}
+
+
